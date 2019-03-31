@@ -1,0 +1,11 @@
+runtime: nodejs10
+
+# [START gae_twilio_env]
+# The following env variables may contain sensitive information that grants
+# anyone access to your Twilio account. Do not add this file to your source
+# control.
+env_variables:
+  TWILIO_ACCOUNT_SID: AC5fde585231e8977d3a248a87963eaf3b
+  TWILIO_AUTH_TOKEN: f3d34b410b583d28ee711021fd1a98bb
+  TWILIO_NUMBER: '+18582390326'
+# [END gae_twilio_env]
